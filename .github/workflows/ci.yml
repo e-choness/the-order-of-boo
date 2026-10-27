@@ -1,0 +1,41 @@
+name: CI
+
+on:
+  push:
+    branches: ['**']
+    paths-ignore: ['media-kit/**', '**/*.md']
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - name: Typecheck
+        run: npm run typecheck
+      - name: Build
+        run: npx vite build
+      - name: Bundle size
+        run: |
+          echo "### 🎃 Build size" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "| What | Size |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| --- | --- |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Whole build | $(du -sh dist | cut -f1) |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| JavaScript | $(du -ch dist/assets/*.js | tail -1 | cut -f1) |" >> "$GITHUB_STEP_SUMMARY"
+          echo "| Node | $(node -v) |" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v7
+        with:
+          name: order-of-boo-web
+          path: dist
+          retention-days: 7

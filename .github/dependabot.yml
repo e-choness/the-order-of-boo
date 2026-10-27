@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      three-and-friends:
+        patterns: ['three', '@types/three', 'postprocessing', 'n8ao']
+      tooling:
+        patterns: ['vite', 'typescript']
+      fonts:
+        patterns: ['@fontsource*']
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly

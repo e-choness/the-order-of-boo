@@ -1,0 +1,101 @@
+name: Deploy to itch.io
+
+# Publishes the browser build to https://echoness.itch.io/the-order-of-boo with butler.
+#
+# Setup (once):
+#   1. Create an API key at https://itch.io/user/settings/api-keys
+#   2. Add it as a repository secret named BUTLER_API_KEY
+#      (Settings → Secrets and variables → Actions → New repository secret)
+#   3. On the itch.io edit page, tick "This file will be played in the browser" for the html5 upload
+#      after the first push (only needed once).
+#
+# Runs on pushes to main that touch the game, on version tags (v1.2.3) and on demand.
+
+on:
+  push:
+    branches: [main]
+    tags: ['v*']
+    paths: ['src/**', 'public/**', 'index.html', 'package.json', 'package-lock.json', 'vite.config.ts', '.nvmrc', '.github/workflows/deploy-itch.yml']
+  workflow_dispatch:
+    inputs:
+      channel:
+        description: 'butler channel'
+        default: 'html5'
+        required: true
+      dry_run:
+        description: 'Build only, skip the upload'
+        type: boolean
+        default: false
+
+concurrency:
+  group: itch-deploy
+  cancel-in-progress: false
+
+env:
+  ITCH_TARGET: echoness/the-order-of-boo
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: itch.io
+      url: https://echoness.itch.io/the-order-of-boo
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+
+      - name: Work out the version
+        id: version
+        run: |
+          if [[ "$GITHUB_REF" == refs/tags/v* ]]; then
+            V="${GITHUB_REF#refs/tags/v}"
+          else
+            V="$(node -p "require('./package.json').version")+${GITHUB_SHA::7}"
+          fi
+          echo "version=$V" >> "$GITHUB_OUTPUT"
+          echo "Deploying version $V"
+
+      - name: Check for the butler API key
+        id: key
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+        run: |
+          if [ -z "$BUTLER_API_KEY" ]; then
+            echo "::warning::BUTLER_API_KEY secret is not set — skipping the itch.io upload."
+            echo "present=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "present=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Install butler
+        if: steps.key.outputs.present == 'true' && inputs.dry_run != true
+        run: |
+          curl -fsSL -o butler.zip https://broth.itch.zone/butler/linux-amd64/LATEST/archive/default
+          unzip -q butler.zip -d "$HOME/butler"
+          chmod +x "$HOME/butler/butler"
+          echo "$HOME/butler" >> "$GITHUB_PATH"
+          "$HOME/butler/butler" -V
+
+      - name: Push to itch.io
+        if: steps.key.outputs.present == 'true' && inputs.dry_run != true
+        env:
+          BUTLER_API_KEY: ${{ secrets.BUTLER_API_KEY }}
+          CHANNEL: ${{ inputs.channel || 'html5' }}
+        run: |
+          butler push dist "$ITCH_TARGET:$CHANNEL" --userversion "${{ steps.version.outputs.version }}"
+          butler status "$ITCH_TARGET:$CHANNEL"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "### 🎃 itch.io deploy" >> "$GITHUB_STEP_SUMMARY"
+          echo "" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Target: \`$ITCH_TARGET:${{ inputs.channel || 'html5' }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Version: \`${{ steps.version.outputs.version }}\`" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Uploaded: ${{ steps.key.outputs.present == 'true' && inputs.dry_run != true && 'yes' || 'no (dry run or missing BUTLER_API_KEY)' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Play: https://echoness.itch.io/the-order-of-boo" >> "$GITHUB_STEP_SUMMARY"
