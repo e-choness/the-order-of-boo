@@ -6,6 +6,8 @@ K = str(pathlib.Path(__file__).resolve().parent.parent)
 art = Image.open(f'{K}/art/keyart-clean.jpg').convert('RGB')
 fire = Image.open(f'{K}/art/fireplace-clean.jpg').convert('RGB')
 logo = Image.open(f'{K}/logo/logo-transparent.png').convert('RGBA')
+# drop the near-invisible haze the browser leaves around the text, then trim
+logo.putalpha(logo.split()[3].point(lambda a: 0 if a < 24 else a))
 logo = logo.crop(logo.getbbox())
 NIGHT = (13, 9, 20)
 
@@ -33,9 +35,11 @@ def place_logo(im, height_frac, pos=('left', 0.07), y_frac=0.5):
     lg = logo.resize((lw, lh), Image.LANCZOS)
     x = int(w * pos[1]) if pos[0] == 'left' else (w - lw) // 2
     y = int((h - lh) * y_frac)
-    glow = Image.new('RGBA', lg.size, (255, 120, 30, 0)); glow.putalpha(lg.split()[3].point(lambda a: int(a * 0.5)))
-    glow = glow.filter(ImageFilter.GaussianBlur(max(3, lh // 18)))
-    base = im.convert('RGBA'); base.alpha_composite(glow, (x, y)); base.alpha_composite(lg, (x, y))
+    # soft candle-glow behind the letters, on a padded canvas so the blur isn't clipped into a box
+    pad = max(8, lh // 6)
+    mask = Image.new('L', (lw + pad * 2, lh + pad * 2), 0); mask.paste(lg.split()[3].point(lambda a: int(a * 0.45)), (pad, pad))
+    glow = Image.new('RGBA', mask.size, (255, 120, 30, 0)); glow.putalpha(mask.filter(ImageFilter.GaussianBlur(max(3, lh // 18))))
+    base = im.convert('RGBA'); base.alpha_composite(glow, (max(0, x - pad), max(0, y - pad)), (max(0, pad - x), max(0, pad - y))); base.alpha_composite(lg, (x, y))
     return base.convert('RGB')
 
 
