@@ -1,0 +1,33 @@
+name: Release
+
+# Tag a version (git tag v2.1.0 && git push --tags) to publish a GitHub Release
+# with a zipped, ready-to-host build attached. deploy-itch.yml ships the same tag to itch.io.
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+      - name: Zip the build
+        run: cd dist && zip -qr "../the-order-of-boo-${GITHUB_REF_NAME}-web.zip" .
+      - uses: softprops/action-gh-release@v3
+        with:
+          files: the-order-of-boo-*-web.zip
+          generate_release_notes: true
+          body: |
+            ▶ **Play in your browser:** https://echoness.itch.io/the-order-of-boo · https://e-choness.github.io/the-order-of-boo/-remake
+
+            The attached zip is a self-contained static build — unzip and serve it from any web server.

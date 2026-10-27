@@ -1,0 +1,15 @@
+# dependencies & builds
+node_modules/
+dist/
+*.tsbuildinfo
+
+# media-kit capture frames
+media-kit/tools/.frames/
+
+# misc
+*.log
+*.bundle
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
