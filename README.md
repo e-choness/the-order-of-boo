@@ -38,17 +38,17 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-2%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%96%20Moon-90%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-67%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%95%AF%EF%B8%8F%20Halloween%20is-TOMORROW-B8233A?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%96%20Moon-82%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-98%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-10-29 | |
+| 🔮 Haunting forecast for 2026-10-30 | |
 | --- | --- |
 | Moon | 🌖 Waning gibbous |
-| Weather | 🍂 Gusty, leaves everywhere |
+| Weather | 🦇 Bats on the move |
 | Household cats | asleep (for now) |
-| Candy supply | hidden on top of the fridge |
+| Candy supply | plentiful |
 <!-- haunt:end -->
 
 <p align="center"><sub>☝️ refreshed every night at 00:13 UTC by <a href=".github/workflows/haunt-forecast.yml">a GitHub Action</a> — countdown, real moon phase, and a forecast no meteorologist would sign.</sub></p>
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Candy bowls restore ectoplasm. The sign says “take ONE”.
+> 🕯️ **Boo field tip of the day:** A puff of Slumber Mist hides you as well as sending people to dreamland.
 <!-- tip:end -->
 
 ## 🎮 Play
