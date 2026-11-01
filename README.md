@@ -38,15 +38,15 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20It%E2%80%99s-HALLOWEEN%20%E2%80%94%20Boos%20deployed!-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%96%20Moon-73%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-69%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-364%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%97%20Moon-63%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-40%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-10-31 | |
+| 🔮 Haunting forecast for 2026-11-01 | |
 | --- | --- |
-| Moon | 🌖 Waning gibbous |
-| Weather | 🍂 Gusty, leaves everywhere |
+| Moon | 🌗 Last quarter |
+| Weather | 🦇 Bats on the move |
 | Household cats | very suspicious |
 | Candy supply | guarded by a toddler |
 <!-- haunt:end -->
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Doors block sight. Close one behind you and you buy yourself a moment.
+> 🕯️ **Boo field tip of the day:** Possess a jack-o’-lantern and stay perfectly still — nobody suspects a pumpkin.
 <!-- tip:end -->
 
 ## 🎮 Play
