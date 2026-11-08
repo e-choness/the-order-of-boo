@@ -38,17 +38,17 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-358%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%98%20Moon-8%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-48%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-357%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%91%20Moon-3%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-79%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-11-07 | |
+| 🔮 Haunting forecast for 2026-11-08 | |
 | --- | --- |
-| Moon | 🌘 Waning crescent |
-| Weather | 💨 Howling chimney drafts |
+| Moon | 🌑 New moon — perfect haunting darkness |
+| Weather | 🌧️ Drizzle on the windowpanes |
 | Household cats | very suspicious |
-| Candy supply | guarded by a toddler |
+| Candy supply | hidden on top of the fridge |
 <!-- haunt:end -->
 
 <p align="center"><sub>☝️ refreshed every night at 00:13 UTC by <a href=".github/workflows/haunt-forecast.yml">a GitHub Action</a> — countdown, real moon phase, and a forecast no meteorologist would sign.</sub></p>
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Old evidence can lie. Check the dates and the handwriting.
+> 🕯️ **Boo field tip of the day:** Candy bowls restore ectoplasm. The sign says “take ONE”.
 <!-- tip:end -->
 
 ## 🎮 Play
