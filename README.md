@@ -38,17 +38,17 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-352%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%92%20Moon-12%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-55%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-351%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%92%20Moon-20%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-86%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-11-13 | |
+| 🔮 Haunting forecast for 2026-11-14 | |
 | --- | --- |
 | Moon | 🌒 Waxing crescent |
-| Weather | 💨 Howling chimney drafts |
-| Household cats | asleep (for now) |
-| Candy supply | guarded by a toddler |
+| Weather | 🌙 Clear and cold |
+| Household cats | mildly suspicious |
+| Candy supply | plentiful |
 <!-- haunt:end -->
 
 <p align="center"><sub>☝️ refreshed every night at 00:13 UTC by <a href=".github/workflows/haunt-forecast.yml">a GitHub Action</a> — countdown, real moon phase, and a forecast no meteorologist would sign.</sub></p>
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Rugs and carpets muffle your sheet-swishing. Kitchen tiles do not.
+> 🕯️ **Boo field tip of the day:** Snuff a candle to make a pool of shadow — someone may notice and light it again.
 <!-- tip:end -->
 
 ## 🎮 Play
