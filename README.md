@@ -38,16 +38,16 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-351%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%92%20Moon-20%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-86%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-350%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%92%20Moon-29%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-58%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-11-14 | |
+| 🔮 Haunting forecast for 2026-11-15 | |
 | --- | --- |
 | Moon | 🌒 Waxing crescent |
-| Weather | 🌙 Clear and cold |
-| Household cats | mildly suspicious |
+| Weather | 💨 Howling chimney drafts |
+| Household cats | very suspicious |
 | Candy supply | plentiful |
 <!-- haunt:end -->
 
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Snuff a candle to make a pool of shadow — someone may notice and light it again.
+> 🕯️ **Boo field tip of the day:** Dogs can smell you while you Fade. Cats can SEE you. Bring treats.
 <!-- tip:end -->
 
 ## 🎮 Play
