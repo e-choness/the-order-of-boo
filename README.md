@@ -38,17 +38,17 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-347%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%93%20Moon-61%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-91%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-346%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%94%20Moon-71%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-63%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-11-18 | |
+| 🔮 Haunting forecast for 2026-11-19 | |
 | --- | --- |
-| Moon | 🌓 First quarter |
-| Weather | 🌙 Clear and cold |
-| Household cats | staring at nothing |
-| Candy supply | hidden on top of the fridge |
+| Moon | 🌔 Waxing gibbous |
+| Weather | 🌫️ Thick ground fog |
+| Household cats | very suspicious |
+| Candy supply | guarded by a toddler |
 <!-- haunt:end -->
 
 <p align="center"><sub>☝️ refreshed every night at 00:13 UTC by <a href=".github/workflows/haunt-forecast.yml">a GitHub Action</a> — countdown, real moon phase, and a forecast no meteorologist would sign.</sub></p>
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Candy bowls restore ectoplasm. The sign says “take ONE”.
+> 🕯️ **Boo field tip of the day:** A puff of Slumber Mist hides you as well as sending people to dreamland.
 <!-- tip:end -->
 
 ## 🎮 Play
