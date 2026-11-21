@@ -38,16 +38,16 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-345%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%94%20Moon-80%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-94%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-344%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%94%20Moon-88%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-65%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-11-20 | |
+| 🔮 Haunting forecast for 2026-11-21 | |
 | --- | --- |
 | Moon | 🌔 Waxing gibbous |
-| Weather | 🌙 Clear and cold |
-| Household cats | asleep (for now) |
+| Weather | 🌫️ Thick ground fog |
+| Household cats | very suspicious |
 | Candy supply | all raisins (tragic) |
 <!-- haunt:end -->
 
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Doors block sight. Close one behind you and you buy yourself a moment.
+> 🕯️ **Boo field tip of the day:** Possess a jack-o’-lantern and stay perfectly still — nobody suspects a pumpkin.
 <!-- tip:end -->
 
 ## 🎮 Play
