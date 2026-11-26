@@ -38,17 +38,17 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-340%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%95%20Moon-99%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-70%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-339%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%95%20Moon-97%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-41%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-11-25 | |
+| 🔮 Haunting forecast for 2026-11-26 | |
 | --- | --- |
 | Moon | 🌕 FULL MOON — werewolves on duty, stick to the shadows |
-| Weather | 🌫️ Thick ground fog |
-| Household cats | asleep (for now) |
-| Candy supply | plentiful |
+| Weather | ⛈️ Distant thunder |
+| Household cats | mildly suspicious |
+| Candy supply | dangerously low |
 <!-- haunt:end -->
 
 <p align="center"><sub>☝️ refreshed every night at 00:13 UTC by <a href=".github/workflows/haunt-forecast.yml">a GitHub Action</a> — countdown, real moon phase, and a forecast no meteorologist would sign.</sub></p>
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Dogs can smell you while you Fade. Cats can SEE you. Bring treats.
+> 🕯️ **Boo field tip of the day:** Motion-sensor skeletons only see you while you move. Freeze!
 <!-- tip:end -->
 
 ## 🎮 Play
