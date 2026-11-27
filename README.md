@@ -38,15 +38,15 @@
 
 <!-- haunt:start -->
 <p align="center">
-  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-339%20days-E8631C?style=for-the-badge">
-  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%95%20Moon-97%25%20lit-5A3A7A?style=for-the-badge">
-  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-41%25-2F6A3A?style=for-the-badge">
+  <img alt="Countdown to Halloween" src="https://img.shields.io/badge/%F0%9F%8E%83%20Halloween%20in-338%20days-E8631C?style=for-the-badge">
+  <img alt="Moon phase" src="https://img.shields.io/badge/%F0%9F%8C%96%20Moon-92%25%20lit-5A3A7A?style=for-the-badge">
+  <img alt="Spirit activity" src="https://img.shields.io/badge/%F0%9F%91%BB%20Spirit%20activity-72%25-2F6A3A?style=for-the-badge">
 </p>
 
-| 🔮 Haunting forecast for 2026-11-26 | |
+| 🔮 Haunting forecast for 2026-11-27 | |
 | --- | --- |
-| Moon | 🌕 FULL MOON — werewolves on duty, stick to the shadows |
-| Weather | ⛈️ Distant thunder |
+| Moon | 🌖 Waning gibbous |
+| Weather | 🍂 Gusty, leaves everywhere |
 | Household cats | mildly suspicious |
 | Candy supply | dangerously low |
 <!-- haunt:end -->
@@ -66,7 +66,7 @@
 > **Bogeyman's Trick book** 🕷️.
 
 <!-- tip:start -->
-> 🕯️ **Boo field tip of the day:** Motion-sensor skeletons only see you while you move. Freeze!
+> 🕯️ **Boo field tip of the day:** Old evidence can lie. Check the dates and the handwriting.
 <!-- tip:end -->
 
 ## 🎮 Play
